@@ -1,37 +1,41 @@
 Pong Game
-
-Pong Game is a simple, classic arcade-style Pong game written in Python using the Arcade
- library. Players can control a paddle to compete against a basic AI opponent. The game features a start screen, score tracking, and a win screen when a player reaches 5 points. The ball changes direction and speed depending on where it hits the paddle.
+Pong Game is a classic arcade-style game written in Python using the Arcade
+ library. Players control a paddle to compete against a basic AI opponent. The game includes a start screen, score tracking, and a win screen when a player reaches 5 points. The ball changes color depending on who last hit it and speeds up with each paddle hit.
 
 Features
-Classic Pong gameplay: Player vs AI paddle.
-Start screen with instructions.
-Score tracking: First to 5 points wins.
-Ball mechanics: Ball speeds up after paddle hits and resets after a point.
-Visual feedback: Ball changes color depending on who last hit it.
-Reset paddles after each point.
-Keyboard controls: Up and Down arrow keys to move your paddle, Space to start/restart.
+Classic Pong Gameplay – Player vs AI paddle.
+Start Screen – Instructions displayed before the game begins.
+Score Tracking – First to 5 points wins.
+Ball Mechanics
+Speeds up after paddle hits.
+Resets to base speed after a point.
+Changes color depending on who last hit it.
+Paddle Reset – Both paddles reset after a point is scored.
+Keyboard Controls – Arrow keys to move your paddle, Space to start/restart.
+
+Video demonstration. https://youtu.be/PZ_DpsNYA4E
+
 How to Run
-Make sure you have Python installed (version 3.10+ recommended).
-Install the Arcade library:
+Ensure Python 3.10+ is installed on your computer.
+Install the Arcade library using pip:
 pip install arcade
-Open a terminal or command prompt in the project folder.
+Open a terminal or VS Code in the project folder.
 Run the game:
 python pong.py
 Controls:
-Up arrow: Move paddle up
-Down arrow: Move paddle down
-Space: Start the game or restart after a win
+Up Arrow – Move paddle up
+Down Arrow – Move paddle down
+Space – Start/restart game
 Development Environment
 Python 3.10+
 Arcade library
-Any code editor (VS Code recommended)
-Command line terminal (Windows PowerShell, macOS Terminal, Linux Terminal)
-Future Work / Possible Enhancements
+Text Editor/IDE – VS Code recommended
+Command Line Terminal – Windows PowerShell, macOS Terminal, Linux Terminal
+Future Enhancements
 Add sound effects for paddle hits and scoring.
-Two-player mode for competitive play.
+Implement two-player mode.
 Adjustable AI difficulty levels.
-More advanced ball physics (sharper angles depending on paddle contact).
+Advanced ball physics (sharper angles depending on paddle contact).
 Power-ups or special effects for extended gameplay.
 Visual enhancements: custom graphics and backgrounds.
 Resources
